@@ -1,0 +1,6 @@
+name: MailerMailer
+type: module
+description: Provides integration for MailerMailer service.
+core: 8.x
+package: MailerMailer
+

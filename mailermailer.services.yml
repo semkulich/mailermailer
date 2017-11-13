@@ -1,0 +1,7 @@
+services:
+ mailermailer.services:
+     class: Drupal\mailermailer\Services\MailerMailer
+     arguments: ['@http_client', '@state', '@logger.channel.mailermailer', '@config.factory']
+ logger.channel.mailermailer:
+   parent: logger.channel_base
+   arguments: ['mailermailer']

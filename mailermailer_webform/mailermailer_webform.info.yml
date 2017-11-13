@@ -1,0 +1,9 @@
+name: MailerMailer Webform Handler
+type: module
+description: Provides integration for MailerMailer service with Webform.
+core: 8.x
+package: MailerMailer
+
+dependencies:
+  - drupal:mailermailer
+  - drupal:webform

@@ -1,0 +1,7 @@
+mailermailer.settings:
+  path: '/admin/config/services/mailermailer'
+  defaults:
+    _form: '\Drupal\mailermailer\Form\MailerMailerSettingsForm'
+    _title: 'MailerMailer'
+  requirements:
+    _permission: 'administer mailermailer'
